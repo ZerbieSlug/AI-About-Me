@@ -1,0 +1,101 @@
+/* This CSS was generated with AI on the html, but I've relocated it into a dedicated file*/
+/* I will state which of the styling has been modified by me. I've removed comments that the AI generated.*/
+/* Reset default browser styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    /* [AI] Body styling with light background */
+    body {
+      background-color: #f9fafb;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    /* [AI] Main container */
+    .about-container {
+      background: #e6b3ff; /* I made it a light purple of sorts*/
+      padding: 2rem;
+      border-radius: 16px;
+      max-width: 600px;
+      width: 90%;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    }
+
+    /* [AI] Profile image styling */
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      border: 4px solid #d64296; /* I used a complimentary color instead of the AI's white ring */
+    }
+
+    /* [AI] Name heading */
+    .about-container h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+      color: #d64296; /* I used a complimentary color instead of the AI's somewhat black text*/
+    }
+
+    /* [AI] Bio paragraph */
+    .about-container p {
+      font-size: 1rem;
+      line-height: 1.6;
+	/* I removed the color setting to make it use default black instead*/
+      margin-bottom: 1.5rem;
+    }
+
+    /* [AI] Skills container | [ME] Renamed to match html reference*/
+    .sk-n-in {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+
+    /* [AI] Individual skill badge */
+    .skill {
+      background-color: #e0f2fe;
+      color: #0369a1;
+      padding: 0.4rem 0.8rem;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: bold; /* Originally 500, I used "bold" instead */
+	  border: 4px solid white; /* I Added a border for additional contrast */
+    }
+	
+	/* [AI] Individual interest badge | [ME] I added this for distinction */
+    .interest {
+      background-color: #ffd1fd; /* I've decided to use a pink background for this */
+      color: #d64296; /* I've used a darker, complimentary color for the text */
+      padding: 0.4rem 0.8rem;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: bold; /* Originally 500, I used "bold" instead */
+	  border: 4px solid white; /* I Added a border for additional contrast */
+    }
+
+    /* [AI] Responsive design for smaller screens */
+    @media (max-width: 500px) {
+      .about-container {
+        padding: 1.5rem;
+      }
+
+      .about-container h1 {
+        font-size: 1.5rem;
+      }
+
+      .profile-img {
+        width: 100px;
+        height: 100px;
+      }
+    }

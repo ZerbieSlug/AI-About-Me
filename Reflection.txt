@@ -1,0 +1,19 @@
+1. I used ChatGPT for this LAB
+
+2. I used the following prompt to initially generate the HTML:
+---
+Create an 'About Me' section for a portfolio website using HTML and CSS only (no JavaScript). It should include:
+- A profile photo on the middle (use a placeholder image for now)
+- My name as a heading
+- A short bio paragraph
+- A list of 4 skills displayed as tags/badges
+- Use "lorem ipsum" instead of my information and I can enter that in later.
+
+Make it responsive - should stack vertically on mobile. Use a modern, clean design with a light color scheme. Add comments explaining the CSS.
+---
+
+3. I only used one prompt
+
+4. Aside from changing semantics or adding new classes, I've added color to info card of the generated page, as well as further stylized the skill/interest tags. (Check the comments of both the .html and .css for the exact changes)
+
+5. Although AI may be good in setting up HTML, it still required a lot of manual cleanup and alterrations to get the page to look as desired. Especially with the CSS, as the program generated all of it within the HTML, which I've relocated to declutter the file.
